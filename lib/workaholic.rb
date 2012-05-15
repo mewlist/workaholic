@@ -1,6 +1,6 @@
 require 'workaholic/job'
 require 'workaholic/worker'
 
-module Workaholic
+class Workaholic
 
 end

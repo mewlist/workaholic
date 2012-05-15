@@ -1,7 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
 describe Workaholic do
-  let(:worker) { Workaholic::Worker.new }
+  let(:worker) { Workaholic.new }
 
   describe '#start' do
     subject { worker.start( 1 ) }

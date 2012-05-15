@@ -13,7 +13,7 @@ class TestJob < Workaholic::Job
 end
 
 describe Workaholic do
-  let(:worker) { Workaholic::Worker.new }
+  let(:worker) { Workaholic.new }
   let(:job1) { TestJob.new }
   let(:job2) { TestJob.new }
 

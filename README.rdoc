@@ -13,7 +13,7 @@ Parallel job runner.
    def run;        @count += 1 end
  end
  
- worker = Workaholic::Worker.new
+ worker = Workaholic.new
  job    = TestJob.new
  
  worker.start 100 do # 100 threads

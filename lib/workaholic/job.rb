@@ -1,4 +1,4 @@
-module Workaholic
+class Workaholic
   class Job
     def run
       # override me
