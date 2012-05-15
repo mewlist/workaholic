@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "workaholic"
   gem.homepage = "http://github.com/mewlist/workaholic"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Parallel job runner}
+  gem.description = %Q{Parallel job runner}
   gem.email = "mewlist@mewlist.com"
   gem.authors = ["mewlist"]
   # dependencies defined in Gemfile

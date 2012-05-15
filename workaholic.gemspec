@@ -31,7 +31,8 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/workaholic/job_spec.rb",
     "spec/workaholic/worker_spec.rb",
-    "spec/workaholic_spec.rb"
+    "spec/workaholic_spec.rb",
+    "workaholic.gemspec"
   ]
   s.homepage = "http://github.com/mewlist/workaholic"
   s.licenses = ["MIT"]
