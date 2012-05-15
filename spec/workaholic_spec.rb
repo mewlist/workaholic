@@ -19,14 +19,13 @@ describe Workaholic do
 
   describe 'run parallel job' do
     subject { TestJob.count }
-before do
-      worker.start 100
-      1000.times do
-        worker.push job1
-        worker.push job2
+    before do
+      worker.start 100 do
+        1000.times do
+          worker.push job1
+          worker.push job2
+        end
       end
-      sleep 0.1 while worker.queue.size > 0
-      worker.stop
     end
 
     it { should == 2000 }
