@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mewlist"]
   s.date = "2012-05-15"
-  s.description = "Parallel job runner"
+  s.description = "TODO: longer description of your gem"
   s.email = "mewlist@mewlist.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -31,13 +31,14 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "spec/workaholic/job_spec.rb",
     "spec/workaholic/worker_spec.rb",
-    "spec/workaholic_spec.rb"
+    "spec/workaholic_spec.rb",
+    "workaholic.gemspec"
   ]
   s.homepage = "http://github.com/mewlist/workaholic"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.15"
-  s.summary = "Parallel job runner"
+  s.summary = "TODO: one-line summary of your gem"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
